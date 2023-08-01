@@ -2,13 +2,13 @@ package task1;
 
 public class PrintElementDemo {
     public static void main(String[] args) {
-        PrintElement<Integer> iObject = new PrintElement<>(25);
-        PrintElement<Double> dObject = new PrintElement<>(2.67666235);
-        PrintElement<String> sObject = new PrintElement<>("Homework");
+        Printer<Integer> iObject = new Printer<>(25);
+        Printer<Double> dObject = new Printer<>(2.67666235);
+        Printer<String> sObject = new Printer<>("Homework");
 
-        iObject.print();
-        dObject.print();
-        sObject.print();
+        iObject.printElement();
+        dObject.printElement();
+        sObject.printElement();
     }
 
 }

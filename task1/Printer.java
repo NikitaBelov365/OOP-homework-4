@@ -1,15 +1,15 @@
 package task1;
 
 
-public class PrintElement<T> {
+public class Printer<T> {
 
     private T object;
 
-    public PrintElement(T object) {
+    public Printer(T object) {
         this.object = object;
     }
 
-    void print() {
+    void printElement() {
         System.out.println(object);
     }
 }
